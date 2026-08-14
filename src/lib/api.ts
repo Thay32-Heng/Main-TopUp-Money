@@ -2,7 +2,7 @@
  * api.ts — Frontend data layer for Express+MySQL API
  *
  * All database operations go through the Express API server (port 3010,
- * proxied by Vite via /api → localhost:3010). JWT tokens stored in
+ * proxied by Vite via /api → localhost:3060). JWT tokens stored in
  * localStorage are auto-attached to every request.
  *
  * Returns { data, error } to match the db JS client pattern,

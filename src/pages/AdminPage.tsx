@@ -88,7 +88,6 @@ import { CSS } from '@dnd-kit/utilities';
 import api from "@/lib/api";
 import EventsTab from "@/components/admin/EventsTab";
 import EventBannersTab from "@/components/admin/EventBannersTab";
-import EventBannersTab from "@/components/admin/EventBannersTab";
 import PreorderGamesTab from "@/components/admin/PreorderGamesTab";
 import PreorderOrdersTab from "@/components/admin/PreorderOrdersTab";
 import SalesActivityTab from "@/components/admin/SalesActivityTab";
