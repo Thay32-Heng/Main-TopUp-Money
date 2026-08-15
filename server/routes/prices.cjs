@@ -9,7 +9,7 @@ const { requireAdmin } = require('../auth.cjs');
 const { sendError } = require('../helpers/errors.cjs');
 
 const router = express.Router();
-const G2BULK_API_URL = 'https://api.g2bulk.com/v1';
+const G2BULK_API_URL = 'https://api.kesor.cam/v1';
 
 async function applyMarkup(price, markupPct) {
   if (markupPct == null) return price;
